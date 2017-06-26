@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My repovizz2 account</title>
+</head>
+<body>
+<h1>Authentication successful!</h1>
+Your repovizz2 account:
+<ul>
+    <li>Username: <%= username %></li>
+    <li>Email: <%= email %></li>
+    <li>
+        Uploaded datapacks:
+        <ul>
+            <% for(var i=0; i<datapacks.length; i++) { %>
+            <li>
+                <%= datapacks[i] %>
+            </li>
+            <% } %>
+        </ul>
+    </li>
+</ul>
+</body>
+</html>

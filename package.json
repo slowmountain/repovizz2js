@@ -1,0 +1,14 @@
+{
+	"name": "repovizz2js",
+	"description": "repovizz2 OAuth2 client library",
+	"version": "0.0.1",
+	"license": "BSD-3-Clause",
+	"dependencies": {
+		"ejs": "^2.5.6",
+		"express": "4.15.3",
+		"passport": "^0.3.2",
+		"passport-oauth": "^1.0.0",
+		"passport-oauth2": "1.4.0",
+		"request": "^2.81.0"
+	}
+}
